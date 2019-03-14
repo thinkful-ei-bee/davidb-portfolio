@@ -156,7 +156,7 @@ body {
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 1px;
     width: 100%;
     padding: 15px;
     margin-bottom: 0;
@@ -214,4 +214,72 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  /* media queries */
+@media screen and (max-width: 980px) { 
+        
+  .container {
+        max-width: 980px;
+        padding: 0 20px;
+  }
+  
+  .auth-image { 
+        width: 50%; 
+  }
+  }
+  
+  @media screen and (max-width: 
+  768px) {
+  
+  .container{
+        max-width: 768px;
+        margin: 0 auto; 
+  }
+
+  }
+  
+  @media screen and (max-width: 
+  640px){ 
+  
+  .main-section{ 
+      padding: 0 15px;
+      margin-bottom: 30px;
+  }
+  
+  #masthead{
+      position: static;
+  }
+  
+  .container{ 
+      padding: 0; 
+  }
+    
+    #main-container{
+        padding-top: 0px;
+    }
+    
+  .auth-image { 
+       width: 60%;  
+  }
+    
+  #logo{
+       width: 100%
+  }
+    
+  nav{ 
+       text-align: center; 
+       width: 100%; 
+  }
+    
+  nav a{ 
+       width: 30%; 
+       padding-left: 0; 
+       margin-left: 0; 
+  }
+    
+  section h1{
+       text-align: center;
+  }
+    
   }
